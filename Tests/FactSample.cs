@@ -5,13 +5,13 @@ namespace Tests
 {
     public class FactSample
     {
-        [Fact]
+        //[Fact]
         public void PassingTest()
         {
             Assert.Equal(4, Add(2, 2));
         }
 
-        [Fact]
+        //[Fact]
         public void FailingTest()
         {
             Assert.Equal(5, Add(2, 2));
