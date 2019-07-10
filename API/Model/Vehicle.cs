@@ -2,8 +2,7 @@ using System;
 namespace API.Model
 {
     public class Vehicle
-    {
-        
+    {        
         public string newMpg { get; set; }
         public string tradeMpg { get; set; }
         public string newPpg { get; set; }
